@@ -401,11 +401,54 @@
 /*-----------------------------------------------------------------------------*/
 /*applying grid*/
 #subSection{
-    width:700px;
+    width:900px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-
+    /*border: antiquewhite 2px solid;*/
+    position: absolute;
+    top:70px;
+    left:200px;
 }
+/*column 1*/
+#column1{
+    width: 200px;
+    position: relative;
+    height: 325px;
+}
+#myBigImg{
+    width: 200px;
+    border-bottom: red 2px solid;
+    border-radius: 15%;
+}
+#git{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+}
+#mail{
+   width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+#whsp{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    bottom: 15px;
+    left: 120px;
+}
+#lnk{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    bottom: 15px;
+    right:0
+}
+
 
 
 
