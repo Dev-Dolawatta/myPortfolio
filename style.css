@@ -76,5 +76,18 @@
     background: black;
     width: 100vw;
     height: 100vh;
+    position: relative;
 }
+#HomeSectionDiv{
+    width: 50vw;
+    height: 80vh;
+    border: red solid 2px;
+    position: absolute;
+    left: 0;
+    top: -25px;
+    right:0;
+    bottom:0;
+    margin: auto;
+}
+
 
