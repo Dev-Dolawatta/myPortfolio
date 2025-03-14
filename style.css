@@ -292,6 +292,9 @@
     width: 100vw;
     height: 100vh;
     position: relative;
+    border-top: red 2px solid;
+    border-bottom: white 2px solid;
+
 }
 /*-----------------------------------------------------------------------------*/
 /*home section outer border div*/
@@ -355,7 +358,7 @@
     font-size: 25px ;
     position: absolute;
     top: 190px;
-    left:200px ;
+    left:100px ;
 }
 #homeTxt2{
     width: 300px;
@@ -379,4 +382,30 @@
     left: 225px;
     margin: 0;
 }
+/*-----------------------------------------------------------------------------*/
+/*about section*/
+#abt{
+    background: black;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+#txtAbt{
+    font-size: 30px;
+    color: red;
+    margin: 0;
+    position: absolute;
+    top: 10px;
+    left: 600px;
+}
+/*-----------------------------------------------------------------------------*/
+/*applying grid*/
+#subSection{
+    width:700px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+
+
 
