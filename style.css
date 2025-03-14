@@ -78,6 +78,7 @@
     height: 100vh;
     position: relative;
 }
+/*home section outer border div*/
 #HomeSectionDiv{
     width: 50vw;
     height: 80vh;
@@ -89,5 +90,25 @@
     bottom:0;
     margin: auto;
 }
-
+#imgDiv{
+    width: 115px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    background: red;
+    position: absolute;
+    left: 0;
+    top: -300px;
+    right:0;
+    bottom:0;
+    margin: auto;
+}
+/*catching and positioning myImg*/
+#smallImg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right:0;
+    bottom:0;
+    margin: auto;
+}
 
