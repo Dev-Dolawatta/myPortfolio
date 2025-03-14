@@ -404,7 +404,6 @@
     width:900px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    /*border: antiquewhite 2px solid;*/
     position: absolute;
     top:70px;
     left:200px;
@@ -448,6 +447,62 @@
     bottom: 15px;
     right:0
 }
+/*column2*/
+#column2{
+    width: 700px;
+    height: 325px;
+    position: relative;
+    color: white;
+    border: aqua solid 2px;
+    margin:3px;
+}
+#pInfo{
+    font-size: 27px;
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    color: red;
+}
+#name{
+    font-size: 23px;
+    position: absolute;
+    top: 60px ;
+    left: 13px;
+}
+#email{
+    font-size: 23px;
+    position: absolute;
+    top: 110px;
+    left: 13px;
+}
+#address{
+    font-size: 23px;
+    position: absolute;
+    top: 150px;
+    left: 13px;
+}
+#country{
+    font-size: 23px;
+    position: absolute;
+    top: 190px;
+    left: 13px;
+}
+#work{
+    font-size: 23px;
+    position: absolute;
+    top: 240px;
+    left: 13px;
+}
+#cvBtn{
+    border: aqua solid 2px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: black;
+    color: white;
+}
+
+
 
 
 
