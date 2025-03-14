@@ -4,6 +4,7 @@
     background: black;
     position: relative;
 }
+/*-----------------------------------------------------------------------------*/
 /*positioning nav tags*/
 #navigationBtn{
     position: absolute;
@@ -15,12 +16,14 @@
     color: white;
 
 }
+/*-----------------------------------------------------------------------------*/
 /*positioning img*/
 #logo{
     position: absolute;
     top: 10px;
     left: 0;
 }
+/*-----------------------------------------------------------------------------*/
 /*change botttom line*/
 #bottomLine{
     border-bottom: red 5px solid;
@@ -30,6 +33,7 @@
     height: 10px;
     width: fit-content;
 }
+/*-----------------------------------------------------------------------------*/
 /* changing navigation btns*/
 #home{
     position: relative;
@@ -71,6 +75,7 @@
     left: -40px;
     text-decoration: none;
 }
+/*-----------------------------------------------------------------------------*/
 /*home section*/
 #homeSection{
     background: black;
@@ -78,6 +83,7 @@
     height: 100vh;
     position: relative;
 }
+/*-----------------------------------------------------------------------------*/
 /*home section outer border div*/
 #HomeSectionDiv{
     width: 50vw;
@@ -103,6 +109,7 @@
     margin: auto;
     overflow: hidden;
 }
+/*-----------------------------------------------------------------------------*/
 /*catching and positioning myImg*/
 #smallImg{
     position: absolute;
@@ -114,5 +121,20 @@
     height:125px;
     width: 125px;
 }
-
+/*-----------------------------------------------------------------------------*/
+/*placing home section texts*/
+#txtDiv{
+    color: white;
+    width: 300px;
+    aspect-ratio: 1/1;
+    position: absolute;
+}
+#myName{
+    font-size: 40px;
+    color: red;
+    position: absolute;
+    top: 120px;
+    left: 250px;
+    margin: 0;
+}
 
