@@ -71,5 +71,10 @@
     left: -40px;
     text-decoration: none;
 }
-
+/*home section*/
+#homeSection{
+    background: black;
+    width: 100vw;
+    height: 100vh;
+}
 
