@@ -91,7 +91,7 @@
     margin: auto;
 }
 #imgDiv{
-    width: 115px;
+    width: 110px;
     aspect-ratio: 1/1;
     border-radius: 100%;
     background: red;
@@ -101,14 +101,18 @@
     right:0;
     bottom:0;
     margin: auto;
+    overflow: hidden;
 }
 /*catching and positioning myImg*/
 #smallImg{
     position: absolute;
-    left: 0;
-    top: 0;
+    left: -7px;
+    top: 10px;
     right:0;
-    bottom:0;
+    bottom:10px;
     margin: auto;
+    height:125px;
+    width: 125px;
 }
+
 
