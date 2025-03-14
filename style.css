@@ -1,6 +1,6 @@
 /*changing header*/
 #header{
-    height: 40px;
+    height: 50px;
     background: black;
     position: relative;
 }
@@ -18,6 +18,14 @@
     top: 10px;
     left: 0;
 }
-
+/*change botttom line*/
+#bottomLine{
+    border-bottom: red 5px solid;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    height: 10px;
+    width: fit-content;
+}
 
 
