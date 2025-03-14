@@ -1,22 +1,21 @@
 
-/*!*changing header*!*/
-/*#header{*/
-/*    height: 50px;*/
-/*    background: black;*/
-/*    position: relative;*/
-/*}*/
-/*!*-----------------------------------------------------------------------------*!*/
-/*!*positioning nav tags*!*/
-/*#navigationBtn{*/
-/*    position: absolute;*/
-/*    top: 10px;*/
-/*    right: 0;*/
-/*    width: fit-content;*/
-/*    height: fit-content;*/
-/*    font-size: 20px;*/
-/*    color: white;*/
-
-/*}*/
+/*changing header*/
+#header{
+    height: 50px;
+    background: black;
+    position: relative;
+}
+/*-----------------------------------------------------------------------------*/
+/*positioning nav tags*/
+#navigationBtn{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: fit-content;
+    height: fit-content;
+    font-size: 20px;
+    color: white;
+}
 /*!*-----------------------------------------------------------------------------*!*/
 /*!*positioning img*!*/
 /*#logo{*/
@@ -219,4 +218,160 @@
 /*    height: 100vh;*/
 /*}*/
 
+
+
+
+/*-----------------------------------------------------------------------------*/
+/*positioning img*/
+#logo{
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+/*-----------------------------------------------------------------------------*/
+/*change botttom line*/
+#bottomLine{
+    border-bottom: red 5px solid;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    height: 10px;
+    width: fit-content;
+}
+/*-----------------------------------------------------------------------------*/
+/* changing navigation btns*/
+#home{
+    position: relative;
+    left: -180px;
+    text-decoration: none;
+}
+#about{
+    position: relative;
+    left: -160px;
+    text-decoration: none;
+}
+#projects{
+    position: relative;
+    left: -140px;
+    text-decoration: none;
+}
+#edu{
+    position: relative;
+    left: -100px;
+    text-decoration: none;
+}
+#skills{
+    position: relative;
+    left: -120px;
+    text-decoration: none;
+}
+#qualifications{
+    position: relative;
+    left: -80px;
+    text-decoration: none;
+}
+#services{
+    position: relative;
+    left: -60px;
+    text-decoration: none;
+}
+#contact{
+    position: relative;
+    left: -40px;
+    text-decoration: none;
+}
+/*-----------------------------------------------------------------------------*/
+/*home section*/
+#homeSection{
+    background: black;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+/*-----------------------------------------------------------------------------*/
+/*home section outer border div*/
+#HomeSectionDiv{
+    width: 50vw;
+    height: 80vh;
+    border: red solid 2px;
+    position: absolute;
+    left: 0;
+    top: -25px;
+    right:0;
+    bottom:0;
+    margin: auto;
+}
+#imgDiv{
+    width: 110px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    background: red;
+    position: absolute;
+    left: 0;
+    top: -300px;
+    right:0;
+    bottom:0;
+    margin: auto;
+    overflow: hidden;
+}
+/*-----------------------------------------------------------------------------*/
+/*catching and positioning myImg*/
+#smallImg{
+    position: absolute;
+    left: -7px;
+    top: 10px;
+    right:0;
+    bottom:10px;
+    margin: auto;
+    height:125px;
+    width: 125px;
+}
+/*-----------------------------------------------------------------------------*/
+/*placing home section texts*/
+#txtDiv{
+    color: white;
+    width: 300px;
+    aspect-ratio: 1/1;
+    position: absolute;
+    text-transform: capitalize;
+}
+#myName{
+    font-size: 40px;
+    color: red;
+    position: absolute;
+    top: 120px;
+    left: 250px;
+    margin: 0;
+}
+/*-----------------------------------------------------------------------------*/
+/*placing p tags*/
+#homeTxt1{
+    width: 600px;
+    font-size: 25px ;
+    position: absolute;
+    top: 190px;
+    left:200px ;
+}
+#homeTxt2{
+    width: 300px;
+    font-size: 25px;
+    position: absolute;
+    top: 260px;
+    left:200px ;
+}
+#homeTxt3{
+    position: absolute;
+    width: 300px;
+    font-size: 25px;
+    top: 300px;
+    left: 315px;
+}
+#homeTxt4{
+    position: absolute;
+    width: 300px;
+    font-size: 25px;
+    top: 360px;
+    left: 225px;
+    margin: 0;
+}
 
