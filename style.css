@@ -12,5 +12,12 @@
     width: fit-content;
     height: fit-content;
 }
+/*positioning img*/
+#logo{
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
 
 
