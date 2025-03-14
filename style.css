@@ -11,6 +11,9 @@
     right: 0;
     width: fit-content;
     height: fit-content;
+    font-size: 20px;
+    color: white;
+
 }
 /*positioning img*/
 #logo{
@@ -26,6 +29,47 @@
     bottom: 0;
     height: 10px;
     width: fit-content;
+}
+/* changing navigation btns*/
+#home{
+    position: relative;
+    left: -180px;
+    text-decoration: none;
+}
+#about{
+    position: relative;
+    left: -160px;
+    text-decoration: none;
+}
+#projects{
+    position: relative;
+    left: -140px;
+    text-decoration: none;
+}
+#edu{
+    position: relative;
+    left: -100px;
+    text-decoration: none;
+}
+#skills{
+    position: relative;
+    left: -120px;
+    text-decoration: none;
+}
+#qualifications{
+    position: relative;
+    left: -80px;
+    text-decoration: none;
+}
+#services{
+    position: relative;
+    left: -60px;
+    text-decoration: none;
+}
+#contact{
+    position: relative;
+    left: -40px;
+    text-decoration: none;
 }
 
 
